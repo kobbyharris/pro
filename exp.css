@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    background-color: #161b22;
+    box-shadow: 1px 3px 2px grey;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.logotext{
+    display: flex;
+    flex-grow: 5;
+}
+h4{color: white;}
+h3{
+    color: rgb(1, 241, 53);
+}
+/* link */
+.linkstyling{
+    flex-grow: 1;
+}
+a{
+    color: #7ce38b;
+}
+a:link{
+    text-decoration: none;
+}
+main{
+    min-width: 50vw;
+    min-height: 50vh;
+}
+form{
+    width: 25em;
+    height: 25em;
+    margin: auto;
+    margin-top: 10%;
+    background-color:  #161b22;
+    box-shadow: 1px 1px 2px grey, -1px -1px 2px grey;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+/*top side of the form */
+.topform{
+    display: flex;
+    flex-flow: column nowrap;
+}
+div > img{
+    width: 50px;
+    align-self: center;
+}
+div > h2{
+    color:  #7ce38b;
+    align-self: center;
+}
+/*middle part one of the form */
+.middleone{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+input[type="text"]{
+    align-self: center;
+    width: 60%;
+    padding: 0.6875em;
+    background-color: #21262d;
+    color:  #7ce38b;
+}
+/*middle part two of the form */
+.middletwo{
+    display: flex;
+    flex-flow: column nowrap;
+}
+input[type="password"]{
+    align-self: center;
+    width: 60%;
+    margin-top: 1.25em;
+    padding: 0.6875em;
+    background-color: #21262d;
+    color:  #7ce38b;
+}
+/* login button */
+.loginbutton{
+    display: flex;
+    flex-flow: column nowrap;
+    margin-top: 2.5em;
+}
+input[type="submit"]{
+    width: 40%;
+    padding: 0.3125em;
+    background-color: #7ce38b;
+    color: #161b22;
+    border: none;
+    box-shadow: 1px 2px 5px black;
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: center;
+}
+/* trademark*/
+.trademark{
+    text-align: center;
+    color: #7ce38b;
+}
